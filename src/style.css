@@ -1,0 +1,62 @@
+html{
+   
+    height: 100%;
+    width: 100%;
+    background-color: aliceblue;
+}
+
+
+.title1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #006462;
+    font-size: 30px;
+    }
+.h2{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #006462;
+
+    }
+
+.texto{
+    color: #16274d;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    
+    
+}
+
+
+.button{
+    background-color: #006462;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: 0;
+    border-radius: 5px;
+    color:white;
+    padding: 8px 10px;
+    text-align: center;
+}
+
+.button:active{
+    transform: scale(1.1)
+}
+
+.opcion{
+display: none;
+background-color: rgb(182, 192, 203);
+}
+
+.inputText{
+    
+    background-color: aliceblue;
+    
+    
+}
+
+.inputNumber{
+    background-color: aliceblue;
+    
+    
+}
