@@ -33,7 +33,7 @@ function decode(offsetDescifrar, textDescifrar) {
   if (typeof textDescifrar !== 'string') {
     // Si no es un string
     throw TypeError('El texto debe ser un string')
-  }
+  } 
   if (textDescifrar.trim().length === 0) {
     // Si es una cadena vacía o solo contiene espacios en blanco
     throw TypeError('Debe ingresar un texto válido.')
